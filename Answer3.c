@@ -14,8 +14,8 @@ return 0;
 }
 void sort(int *ptr,int size){
     int temp;
-    for(int i=0;i<size;i++){
-        for(int j=i+1;j<size-1;j++){
+    for(int i=0;i<size-1;i++){
+        for(int j=i+1;j<size;j++){
             if(*(ptr+i)>*(ptr+i)){
                 temp=*(ptr+i);
                 *(ptr+i)=*(ptr+j);
